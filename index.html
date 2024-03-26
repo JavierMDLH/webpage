@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Autenticación</title>
 </head>
 <body>
-    <h1>Welcome to Homepage</h1>
-    <p>This is a simple static webpage.</p>
+    <h2>Autenticación</h2>
+    <form action="verificar.php" method="post">
+        <label for="username">Usuario:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Iniciar Sesión">
+    </form>
 </body>
 </html>
