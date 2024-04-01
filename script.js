@@ -2,7 +2,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     event.preventDefault(); // Prevent form submission
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if (username === "admin" && password === "password") {
+    if (username === "admin" && password === "123") {
         document.getElementById("message").innerText = "Login successful! Redirecting...";
         setTimeout(function() {
             window.location.href = "welcome.html"; // Redirect to welcome page
