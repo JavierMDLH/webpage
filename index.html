@@ -1,24 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authentication Example</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portal de Linux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br>
-            <button type="submit">Login</button>
-        </form>
-        <p id="message"></p>
-    </div>
-
-    <script src="script.js"></script>
+    <header>
+        <h1>Portal de Linux</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Distribuciones</a>
+        <a href="#">Comunidad</a>
+        <a href="#">Recursos</a>
+    </nav>
+    <main>
+        <h1>¿Qué es Linux?</h1>
+        <p>Linux es un sistema operativo de código abierto basado en el kernel de Linux. Es ampliamente utilizado en servidores, dispositivos embebidos y sistemas de escritorio. Ofrece una amplia gama de distribuciones que se adaptan a diferentes necesidades y preferencias.</p>
+        <img src="https://via.placeholder.com/500" alt="Linux Logo">
+        <h2>Distribuciones populares de Linux</h2>
+        <ul>
+            <li>Ubuntu</li>
+            <li>Debian</li>
+            <li>Fedora</li>
+            <li>CentOS</li>
+            <li>Arch Linux</li>
+        </ul>
+        <p>Estas son solo algunas de las muchas distribuciones disponibles. Cada una tiene sus propias características y comunidades de usuarios.</p>
+        <h2>Comunidad de Linux</h2>
+        <p>La comunidad de Linux es diversa y activa. Los usuarios comparten conocimientos, resuelven problemas y colaboran en el desarrollo de software de código abierto.</p>
+        <img src="https://via.placeholder.com/500" alt="Comunidad de Linux">
+        <h2>Recursos útiles</h2>
+        <p>Existen muchos recursos disponibles para aprender más sobre Linux, incluyendo documentación oficial, foros de discusión, tutoriales en línea y libros.</p>
+    </main>
 </body>
 </html>
